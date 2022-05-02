@@ -1,0 +1,241 @@
+/*
+Theme Name:    Kokoro Interior
+Author:        ZThemes Studio
+Author URI:    https://zthemes.net/
+Description:   Kokoro Interior is a Child-theme of Kokoro.Kokoro Interior has a change in Fonts, color details and especially a major change in the layout of the home blog (moving from simple layout to list format). With the new Blog Layout, Kokoro Interior will change the look of your blog.
+Template:      kokoro
+Version:       1.0.2
+Tested up to: 5.5.1
+Requires PHP: 5.6
+License:       GNU General Public License v2 or later
+License URI:   http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:   kokoro-interior
+Tags:          one-column, two-columns, right-sidebar, custom-background, footer-widgets, full-width-template, custom-logo, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, blog, news
+
+*/
+
+/*
+Customizations of this theme start here
+*/
+
+/* style.css */
+
+
+/*=========================================
+ Header Layout Style
+ ========================================*/
+
+body {
+font-family: 'Lora';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #fff;
+  color: #383838;
+  letter-spacing: 0.75px;
+}
+p{
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+div#page{
+  box-shadow: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+nav#site-navigation {
+  display: none;
+}
+#primary-menu.menu li a{
+font-family: 'Lora';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: #212121;
+  letter-spacing: 0.75px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+#primary-menu.menu li a:hover{
+  color: #be9c62;
+}
+.main-navigation li {
+  margin-right: 40px !important;
+}
+.site-branding {
+  padding: 50px 0;
+}
+#primary-menu.menu .children li a{
+  line-height: 32px;
+  font-size: 12px;
+}
+/*==========================================
+ Blog Layout Style
+ ==========================================*/
+.kokoro-grid-item{
+  width: 100%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  box-shadow: 0px 10px 5px 0px rgba(240,240,240,0.8);
+}
+article.post{
+  margin-bottom: 0px !important;
+  padding-bottom: 8px !important;
+}
+.grid-item{
+  padding-top: 0px !important;
+  margin-top: 35px !important;
+  min-height: auto;
+}
+.grid-item .entry-header{
+  text-align: center;
+}
+.grid-item .entry-box{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.grid-item .entry-title{
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.posts-navigation{
+  margin-top: 55px !important;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  position: relative;
+  float: left;
+  width: 100%;
+  padding: 0px 5px;
+}
+/*==========================================
+ Single Post Style
+ ==========================================*/
+.entry-cate a {
+  color: #be9c62;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+ h1.site-title {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+.entry-title{
+  font-family: 'Prata';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.entry-date {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+}
+.entry-box-post{
+  margin: 0;
+}
+.entry-tags a{
+  font-family: Montserrat;
+  font-size: 9px !important;
+  text-transform: uppercase;
+  background-color: #efefef;
+  color: #444444;
+}
+.entry-content{
+font-family: 'Lora';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+.entry-more a, .entry-more a:hover {
+  background-color: #ffffff;
+  color: #d1b079;
+  letter-spacing: 3px;
+  font-family: 'Lora';
+}
+.nav-previous a:hover, .nav-next a:hover{
+  color: #be9c62;
+}
+textarea#comment:focus , input.search-field:focus{
+  border-color: #989898;
+}
+.comment-content {
+  font-size: 13px;
+}
+/*==========================================
+ Widget Style
+ ==========================================*/
+
+.widget-title {
+  color: #be9c62;
+  border-color: #ffffff;
+  font-weight: 600;
+}
+/*==========================================
+ Footer Style
+ ==========================================*/
+footer.site-footer{
+  background-color: #282828 !important;
+  padding-bottom: 0px !important;
+}
+footer.site-footer .site-info {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  letter-spacing: 1.75px;
+  padding: 35px 0;
+  width: 100%;
+  color: #dbdbdb;
+}
+footer.site-footer{
+  margin-top: 10px;
+  padding-top: 50px;
+}
+footer.site-footer .site-info a {
+    color: #fff;
+}
+
+/*==========================================
+  Responsive Style
+ ==========================================*/
+
+@media only screen and (max-width: 760px) {
+.kokoro-grid-item {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.grid-item{
+  height: auto;
+  min-height: 220px;
+}
+.entry-more {
+  margin-bottom: 15px;
+}
+#primary-menu.menu li a{
+  line-height: 34px;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  width: 100%;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: 0;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+  left: 0;
+}
+}
+
+remove_action("wp_head", "wp_generator");

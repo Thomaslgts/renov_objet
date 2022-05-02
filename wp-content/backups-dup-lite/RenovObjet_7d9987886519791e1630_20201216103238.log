@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 16 December 2020 10h32
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.40.1
+WORDPRESS:	5.6
+PHP INFO:	7.3.7 | SAPI: apache2handler
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.7 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.10 Perl/v5.24.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 4.5MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+TABLES: total:84 | filtered:0 | create:84
+FILTERED: []
+SQL CREATED: RenovObjet_7d9987886519791e1630_20201216103238_database.sql
+SQL FILE SIZE: 1.54MB (1618930)
+SQL FILE TIME: 2020-12-16 10:32:44
+SQL RUNTIME: 0.78 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /Applications/MAMP/htdocs/renov_objet
+ARCHIVE FILE: RenovObjet_7d9987886519791e1630_20201216103238_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	64.96MB
+STATS:	Dirs 391 | Files 2,744
+SQL ADDED: RenovObjet_7d9987886519791e1630_20201216103238_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3135
+    [filename] => /Applications/MAMP/htdocs/renov_objet/wp-content/backups-dup-lite/tmp/RenovObjet_7d9987886519791e1630_20201216103238_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 3134
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 24.28MB
+ARCHIVE RUNTIME: 27.31 sec.
+MEMORY STACK: 6.5MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /Applications/MAMP/htdocs/renov_objet/wp-content/backups-dup-lite/tmp/RenovObjet_7d9987886519791e1630_20201216103238_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.54MB
+INSTALLER FILE: 61.28KB
+ARCHIVE FILE: 25.77MB 
+COMPTE ATTENDU DE FICHIERS/RÉPERTOIRES : 3,135
+COMPTE ACTUEL DE FICHIERS/RÉPERTOIRES : 3,134
+TEST DE COHÉRENCE D’ARCHIVE : Bon
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 33.95 sec.
+PEAK PHP MEMORY USED: 6.5MB
+DONE PROCESSING => RenovObjet 16 December 2020 10h33
+
